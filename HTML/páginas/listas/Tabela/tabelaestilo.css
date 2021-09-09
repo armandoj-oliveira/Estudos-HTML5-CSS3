@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+#tabela {
+    font-size: 35px;
+    color: #000ff0;
+    text-decoration: underline;
+}
+
+table {
+    width: 600px; 
+}
+
+table thead { 
+   background-color: gray;
+}
+
+table tbody {
+    background-color: white;
+}
+
+th {
+    font-weight: normal;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #DDD;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

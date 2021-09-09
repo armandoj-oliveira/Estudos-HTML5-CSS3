@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+.container {
+    color: #F00;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightseagreen;
+}

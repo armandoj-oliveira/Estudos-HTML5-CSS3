@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: #ccc;
+    font-size: 30px;
+    color: #F00;
+    border: 2px solid #0f0;
+}
+
+.container strong {
+    color: #00F;
+    border: 1px solid #000;
+}
+.container strong:hover {
+    color: #000;
+    border: 0px solid #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #000;
+}

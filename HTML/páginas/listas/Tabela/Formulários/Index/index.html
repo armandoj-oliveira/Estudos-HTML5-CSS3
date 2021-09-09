@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>INDEX</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <form method="GET" action="qualquerarquivo.php" enctype="mutipart/form-data">
+            <input type="hidden" name="country" value="JP"/>
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>
+                    Nome Completo: <br />
+                    <input type="text" name="name" required minlength="2" maxlength="120" />
+                </label> <br />
+                <label>
+                    Sobrenome: <br />
+                    <input type="text" name="lastname" required/>
+                </label> <br />
+                <label>
+                    Foto: <br />
+                    <input type="file" name="foto" accept="image/*" />
+                </label> <br />
+                <label>
+                    E-mail: <br />
+                    <input type="text" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" />
+                </label> <br />
+                <label>
+                    Idade: <br />
+                    <input type="number" name="age" step="1" min="18" max="120" />
+                </label> <br />
+                <label>
+                    Data de Nascimento: <br />
+                    <input type="date" name="birthdate" />
+                </label> <br />
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <label> 
+                    Nome da Empresa: <br />
+                    <input type="text" name="companyname" />
+                </label> <br />
+                <label>
+                    Cargo na Empresa: <br />
+                    <input type="text" name="companyjotitle" />
+                </label> <br />
+            </fieldset>
+
+            <input type="submit" value="Cadastrar" />   
+
+        </form>
+    </body>
+</html>

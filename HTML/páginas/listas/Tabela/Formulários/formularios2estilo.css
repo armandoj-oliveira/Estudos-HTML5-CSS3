@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+#form2 {
+     font-size: 20px;
+     color: darkred;
+     text-decoration: inherit;
+ }
+

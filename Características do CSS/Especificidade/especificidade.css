@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    color: green;
+}
+
+.container {
+    color: #F00;
+}
+
+/* Especificidade: o atributo que estiver mais especificado
+ganhará os comandos do CSS. Ex.: Mesmo tendo div nos dois
+textos o mais especificado ganhou a cor vermelha. */
+div {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
